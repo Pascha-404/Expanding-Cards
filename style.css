@@ -17,11 +17,11 @@ body {
 .container {
     display: flex;
     justify-content: center;
-    width: 90vw;
+    width: 50vw;
 }
 
 .panel {
-    background-size: cover;
+    background-size: auto 100%;
     background-position: center;
     background-repeat: no-repeat;
     height: 80vh;
@@ -61,5 +61,17 @@ body {
 
     .panel:nth-of-type(5), .panel:nth-of-type(4) {
         display: none;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .container {
+        width: 80vh;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 70vh;
     }
 }
