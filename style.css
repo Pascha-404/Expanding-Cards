@@ -11,6 +11,7 @@ body {
     align-items: center;
     justify-content: center;
     margin: 0;
+    background-color: black;
 }
 
 .container {
@@ -50,7 +51,7 @@ body {
 
 .panel.active h3 {
     opacity: 1;
-    transition: opacity 0.3s ease-in 3s;
+    transition: opacity 0.3s ease-in 0.5s;
 }
 
 @media screen and (max-width: 480px) {
